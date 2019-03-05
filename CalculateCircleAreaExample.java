@@ -32,6 +32,9 @@ public class CalculateCircleAreaExample {
 		 * pi * r * r
 		 * where r is a radius of a circle.
 		 */
+		 
+		 if (radius == 0)
+			System.exit(0);
 	   
 		//NOTE : use Math.PI constant to get value of pi
 		double area = Math.PI * radius * radius;
