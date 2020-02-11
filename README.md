@@ -23,11 +23,6 @@ Blablabla Rami are pere
 bla
 say what???
 
-one more line
+schimbarea
 
-I did a thing
-
-Chuck Norris was here
-
-Ramona wants to add a change
 
