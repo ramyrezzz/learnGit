@@ -1,0 +1,7 @@
+git branch -d myFeature
+git branch -D myFeature
+git push origin :myFeature
+git remote prune origin
+git checkout -b newBranch
+git pull --rebase
+git rebase master
