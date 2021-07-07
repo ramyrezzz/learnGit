@@ -1,4 +1,0 @@
-Salut!
-
-Serus inapoi :)
-schimbTot
