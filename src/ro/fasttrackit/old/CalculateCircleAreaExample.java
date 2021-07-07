@@ -1,3 +1,4 @@
+package ro.fasttrackit.old;
 /*
         Calculate Circle Area using Java Example
         This Calculate Circle Area using Java Example shows how to calculate
@@ -11,18 +12,19 @@ import java.io.InputStreamReader;
 public class CalculateCircleAreaExample {
  
 	public static void main(String[] args) {
-		   
+		  
+		// Code review added here :D
 		int radius = 0;
 		System.out.println("Please enter radius of a circle");
 	   
 		try {
-			//get the radius from console
+			// get the radius from console
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			radius = Integer.parseInt(br.readLine());
 		}
-		catch(NumberFormatException ne | IOException ioe) {
-			//if invalid value was entered	
-			System.out.println("Invalid radius value+Florin_commitIncremeent" + ne+"posible conflict situation: Florin:commitincrement");
+		catch(NumberFormatException | IOException ne) {
+			// if invalid value was entered
+			System.out.println("Invalid radius value+Florin_commitIncremeent" + ne + "posible conflict situation: Florin:commitincrement");
 			System.exit(0);
 		}
 	   
@@ -36,10 +38,10 @@ public class CalculateCircleAreaExample {
 		double area = Math.PI * radius * radius;
 	   
 		System.out.println("Area of a circle is " + area);
-		System.out.println("Calculating area using a method"+areaOfTheCircle(area));
+		System.out.println("Calculating area using a method" + areaOfTheCircle(area));
 	}
 
-	public double areaOfTheCircle(double areaLocal){
+	public static double areaOfTheCircle(double areaLocal){
 		return areaLocal;
 	}
-}//a simple comment in a java class
+}

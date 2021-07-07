@@ -1,3 +1,4 @@
+package ro.fasttrackit.old;
 /*
   Even Odd Number Example
   This Java Even Odd Number Example shows how to check if the given
