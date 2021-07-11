@@ -1,26 +1,131 @@
 package ro.fasttrackit;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-        byte lowNumber = 5;
-        short mediumNumber = 25;
-        int intNumber = 3500;
-        long timStampInMilliseconds = 16L;
-        double bankInterest = 1.5;
-        float reallyBigFractionNumber = 2.356F;
-        boolean isHot = true;
-        boolean isCold = false;
-        char character = 'a';
 
-        System.out.println(reallyBigFractionNumber);
+        System.out.println("Year " + args[0]);
+        int theYear = Integer.parseInt(args[0]);
+        System.out.println(theYear);
+
+        if (theYear % 4 == 0 && theYear % 100 != 0 || theYear % 400 == 0) {
+            System.out.println("In the year " + theYear + " February has 29 days !");
+        } else if (theYear % 4 != 0 || theYear % 100 == 0 || theYear % 400 != 0) {
+            System.out.println("In the year " + theYear + " February has 28 days !");
+        }
+
+
+
+        /*if(args.length == 3){
+            double a = Double.parseDouble(args[0]);
+            double b = Double.parseDouble(args[2]);
+            String operator = args[1];
+            if(operator.equals("+")){
+                double result = a + b;
+                System.out.println("Result is: " + result);
+            }
+            else if(operator.equals("-")){
+                double result = a - b;
+                System.out.println("Result is: " + result);
+            }
+            else if(operator.equals("*")){
+                double result = a * b;
+                System.out.println("Result is: " + result);
+            }
+            else if(operator.equals("/")) {
+                double result = a / b;
+                System.out.println("Result is: " + result);
+            }
+        }
+        else{
+            System.err.println("3 args are needed !");
+        }*/
+
+        
+
+
+
+        /*Scanner sc = new Scanner(System.in);
+        System.out.println("Enter string for verify :");
+        String typedString = sc.next();
+        String reversedString ="";
+        for (int j = typedString.length() - 1; j >= 0; j--) {
+            reversedString = reversedString + typedString.charAt(j);
+        }
+        System.out.println(reversedString);
+        if (typedString.equals(reversedString))
+        {
+            System.out.println("IS PALINDROME");
+        }
+        else
+        {
+            System.out.println("IS NOT PALINDROME");
+        }*/
+
+
+
+
+        /*System.out.println("The number " + args[0]);
+        int limit = Integer.parseInt(args[0]);
+        int i =0;
+        int num =0;
+        String primeNumbers = " ";
+
+        System.out.println("Enter a number:");
+        for (i = 1; i <= limit; i++)
+        {
+            int counter=0;
+            for(num =i; num>=1; num--)
+            {
+                if(i%num==0)
+                {
+                    counter = counter + 1;
+                }
+            }
+            if (counter ==2)
+            {
+                primeNumbers = primeNumbers + i + " ";
+            }
+        }
+        System.out.println("Prime numbers between 1 and 100 are:");
+        System.out.println(primeNumbers);*/
     }
 }
-// ALT + ENTER
-// SHIFT + F6
-// Ctrl + ALT + V => Variable
-// CTRL + ALT + M => Method
-// CTRL + ALT + C => Constant
-// CTRL + ALT + L => Reformat code !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
