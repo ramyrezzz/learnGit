@@ -1,8 +1,8 @@
-package ro.FasttrackIT;
+package ro.fasttrackit.assignments.adi;
 
 import java.util.Scanner;
 
-public class Main {
+public class TemaLab9 {
 
     public static boolean isPalindrome(int a) {
         int original = a;
