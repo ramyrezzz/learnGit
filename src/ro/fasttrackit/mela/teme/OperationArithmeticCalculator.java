@@ -1,5 +1,5 @@
 /**
- * Autor : Tusa Letitia-Melania
+ * Author : Tusa Letitia-Melania
  * Implement an arithmetic calculator that takes 3 arguments: the first number,
  * the operation, the second number
  * The arguments entered are assumed to be valid

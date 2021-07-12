@@ -1,5 +1,5 @@
 /**
- * Autor : Tusa Letitia-Melania
+ * Author : Tusa Letitia-Melania
  * Calculate the sum of the first 100 prime numbers
  * I was unable to generate the code using the for command instead of while
  * for (int count=1; count<=nrPrime; count++)

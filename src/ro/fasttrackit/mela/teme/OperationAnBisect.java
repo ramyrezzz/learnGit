@@ -1,5 +1,5 @@
 /**
- * Autor Tusa Letitia-Melania
+ * Author Tusa Letitia-Melania
  * Display the number of days in month February from a year between 1900-2016 that is read from keyboard
  * A year is a leap year if:
  * -Is divisible by 4 but not by 100
