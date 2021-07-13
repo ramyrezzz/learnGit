@@ -31,7 +31,7 @@ public class OperationGreaterThanAverage {
         System.out.print("Bigger numbers than the average are : " );
         for (int i = 0; i < myList.size(); i++) {
             if (myList.get(i) > avg)
-               System.out.print(myList.get(i) +" ");
+                System.out.print(myList.get(i) +" ");
         }
     }
 
