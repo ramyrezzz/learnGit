@@ -1,4 +1,6 @@
-public class Tema {
+package ro.fasttrackit.assignments.raullazar;
+
+public class TemaLab8 {
     public static void main(String[] args) {
 
         //Verify that the input coming into your application is different than 0Assignment
