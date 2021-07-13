@@ -9,10 +9,10 @@ public class TemaLab8 {
         int thirdArgs = 0;
         //int z=0;
 
-        int numberString[] = {2, 3, 4, 5, 6, 7, 9, 8, 81, 100};
+        int[] numberString = {2, 3, 4, 5, 6, 7, 9, 8, 81, 100};
         System.out.print("This is our string : ");
-        for (int i = 0; i < numberString.length; i++) {
-            System.out.print(numberString[i] + ", ");
+        for (int j : numberString) {
+            System.out.print(j + ", ");
         }
         System.out.println();
 
@@ -58,19 +58,15 @@ public class TemaLab8 {
         int i, m = 0, flag = 0;
         int p = 9;//it is the number to be checked
         m = p / 2;
-        if (p == 0 || p == 1) {
-            System.out.println(n + " is not prime number");
-        } else {
-            for (i = 2; i <= m; i++) {
-                if (p % i == 0) {
-                    System.out.println(p + " is not prime number");
-                    flag = 1;
-                    break;
-                }
+        for (i = 2; i <= m; i++) {
+            if (p % i == 0) {
+                System.out.println(p + " is not prime number");
+                flag = 1;
+                break;
             }
-            if (flag == 0) {
-                System.out.println(p + " is prime number");
-            }
+        }
+        if (flag == 0) {
+            System.out.println(p + " is prime number");
         }
     }
 }
