@@ -1,6 +1,6 @@
 package ro.fasttrackit;
 
-public class divideWith0 {
+public class DivideWith0 {
 
     public static void main(String[] args) {
         if (args.length < 3) {
