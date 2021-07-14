@@ -1,6 +1,6 @@
 package ro.fasttrackit.assignments.examples;
 
-public class sumOfPrimeNumbers {
+public class SumOfPrimeNumbers {
     public static void main(String[] args) {
         int number;
         int i, count, sum = 0;
