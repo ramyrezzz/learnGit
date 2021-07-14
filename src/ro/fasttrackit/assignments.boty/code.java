@@ -1,2 +1,5 @@
-package ro.fasttrackit.assignments.boty;public class code {
+package ro.fasttrackit.assignments.boty;
+
+public class code {
+    
 }
