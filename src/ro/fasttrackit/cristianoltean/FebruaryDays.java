@@ -1,4 +1,4 @@
-package ro.fasttrackit;
+package ro.fasttrackit.cristianoltean;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ro.fasttrackit;
+package CristianOltean;
 
 public class Person {
     private String name;

@@ -1,4 +1,4 @@
-package ro.fasttrackit;
+package ro.fasttrackit.cristianoltean;
 
 public class ArithmeticCalculator {
     public static void main(String[] args) {
