@@ -15,7 +15,7 @@ public class Palindrome {
         System.out.println("The number is palindrom: " + (n == mirror));
     }
 
-    private static int getMirroredNumber(int n) {
+    public static int getMirroredNumber(int n) {
         int mirror = 0;
         while (n != 0) {
             mirror = mirror * 10 + n % 10;
