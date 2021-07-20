@@ -16,10 +16,24 @@ public class Person {
         System.out.printf("%s is full: %s%n", name, full);
     }
 
+
     public void eat() {
         full = true;
         System.out.printf("Person %s eats.%n", name);
         isFull();
+    }
+
+    public void eat(String food) {
+        full = true;
+        System.out.printf("Person %s eats %s.%n", name, food);
+        isFull();
+    }
+
+    public String eat(String food, boolean isFull) {
+        full = isFull;
+        System.out.printf("Person %s eats %s.%n", name, food);
+        isFull();
+        return food;
     }
 
     public void run() {
