@@ -1,4 +1,4 @@
-package ro.MyPakage;
+package ro.fasttrackit.TemeValerian;
 
 public class Person {
     private final String name;
