@@ -1,12 +1,16 @@
 package ro.fasttrackit.person;
 
-public class Animal implements Feedable{
+public class Animal extends Survival implements Feedable {
 
     private boolean isFool = false;
+    private final String name;
 
-    @Override
-    public void eat() {
-        System.out.println("Animal Eats !");
+    public Animal(String name) {
+        this.name = name;
+    }
+
+    public String name() {
+        return name;
     }
 
     @Override
@@ -22,17 +26,12 @@ public class Animal implements Feedable{
     }
 
     @Override
-    public void drink() {
-        System.out.println("Animal Drinks !");
-    }
-
-    @Override
     public void drink(String liquid) {
         System.out.printf("Animal drinks: %s%n", liquid);
     }
 
     @Override
-    public void run() {
-        System.out.println("Animal Runs !");
+    public void scream() {
+        System.out.println("Animal Screams !!");
     }
 }
