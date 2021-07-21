@@ -9,5 +9,4 @@ public interface Feedable {
     void drink(String liquid);
 
     void run();
-
 }
