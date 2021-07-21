@@ -1,6 +1,6 @@
 package ro.fasttrackit.cristianoltean.oop.furniture;
 
-public class PersonWithInterface implements CristianOltean.Feedable {
+public class PersonWithInterface implements Feedable {
 
     private final String name;
     private boolean full = false;
