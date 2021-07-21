@@ -28,4 +28,14 @@ public class PersonWithInterface implements Feedable {
     public void eat(String food, boolean isFull) {
 
     }
+
+    @Override
+    public void drink() {
+
+    }
+
+    @Override
+    public void drink(String liquid) {
+
+    }
 }

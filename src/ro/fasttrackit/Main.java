@@ -1,7 +1,8 @@
 package ro.fasttrackit;
 
-import ro.fasttrackit.person.*;
-import ro.fasttrackit.person.Feedable;
+import ro.fasttrackit.oop.animal.Dog;
+import ro.fasttrackit.oop.person.*;
+import ro.fasttrackit.oop.person.Feedable;
 
 import java.util.ArrayList;
 import java.util.List;
