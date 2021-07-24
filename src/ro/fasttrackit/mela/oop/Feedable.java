@@ -1,6 +1,7 @@
 package ro.fasttrackit.mela.oop;
 
 public interface Feedable {
+    String name()
     void eat();
     void eat(String food);
     void eat(String food, boolean full);
