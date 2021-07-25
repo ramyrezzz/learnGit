@@ -14,6 +14,7 @@ import java.util.List;
 
 import static java.util.Collections.sort;
 
+
 public class OperationGreaterThanAverage {
     public static void main(String[] args) {
         ArrayList<Integer> myList = new ArrayList<>(List.of(4, 7, 3, 5, 6));
