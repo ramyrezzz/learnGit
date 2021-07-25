@@ -9,19 +9,33 @@ public class MainOop {
         //diferite printr-o interfata
 
         Feedable firstPerson = new FeedablePerson("Mela");
-        Feedable firstAnimal = new Animal();
         Feedable secondPerson = new FeedablePerson("Zoia");
+        //Feedable firstAnimal = new Dog("Spark");
+        Dog firstAnimal = new Dog("Spark");
+
+        firstAnimal.bark();;
 
         List<Feedable> myList = new ArrayList<>();
-        myList.add(firstPerson);
-        myList.add(secondPerson);
+//        myList.add(firstPerson);
+//        myList.add(secondPerson);
         myList.add(firstAnimal);
+
+       /* for (int i=0; i< myList.size(); i++){
+            Feedable feedable = myList.get(i);
+            feedable.eat();
+        }*/
 
         for (Feedable feedable : myList) {
             System.out.println(feedable.name());
             feedable.eat();
             feedable.run();
             feedable.drink();
+            if (feedable instanceof Dog) {
+                //type casting - un obiect este castat intr-un alt tip de clasa
+                ((Dog) feedable).bite();
+                ((Dog) feedable).bark();
+                ((Dog) feedable).scream();
+            }
         }
 
 //        firstPerson.eat("Salade", true);

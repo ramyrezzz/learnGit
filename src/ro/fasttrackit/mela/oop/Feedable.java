@@ -1,7 +1,7 @@
 package ro.fasttrackit.mela.oop;
-
+//The interface exposes a behavior (Interfata expune un comportament)
 public interface Feedable {
-    String name()
+    String name();
     void eat();
     void eat(String food);
     void eat(String food, boolean full);
