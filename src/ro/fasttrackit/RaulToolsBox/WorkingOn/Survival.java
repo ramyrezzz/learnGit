@@ -1,4 +1,4 @@
-package ro.fasttrackit.TemeRaul;
+package ro.fasttrackit.RaulToolsBox.WorkingOn;
 
 public class Survival {
     public void eat(){

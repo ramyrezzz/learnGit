@@ -1,8 +1,8 @@
 package ro.fasttrackit.assignments;
 
-import ro.fasttrackit.TemeRaul.Animal;
-import ro.fasttrackit.TemeRaul.Feedable;
-import ro.fasttrackit.TemeRaul.FeedablePerson;
+import ro.fasttrackit.RaulToolsBox.WorkingOn.Animal;
+import ro.fasttrackit.RaulToolsBox.WorkingOn.Feedable;
+import ro.fasttrackit.RaulToolsBox.WorkingOn.FeedablePerson;
 
 import java.util.ArrayList;
 import java.util.List;
