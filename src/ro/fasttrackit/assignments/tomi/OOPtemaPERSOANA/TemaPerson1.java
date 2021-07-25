@@ -1,4 +1,4 @@
-package ro.fasttrackit;
+package ro.fasttrackit.assignments.tomi.OOPtemaPERSOANA;
 
 public class TemaPerson1 {
     public static void main(String[] args) {

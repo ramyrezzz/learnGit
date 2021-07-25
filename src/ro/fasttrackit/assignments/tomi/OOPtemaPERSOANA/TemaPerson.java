@@ -1,6 +1,6 @@
-package ro.fasttrackit.assignments.tomi;
+package ro.fasttrackit.assignments.tomi.OOPtemaPERSOANA;
 
-public class Persoana {
+public class TemaPerson {
     public String myName = "Simo Attila Tamas";
     public char[] myInitials = {'S','A','T'};
     public String myGender = "male";
@@ -34,10 +34,4 @@ public class Persoana {
         System.out.println("Indice masa corporala : " + myWeight / (myHeight * myHeight));
     }
 }
-
-
-
-
-
-
 

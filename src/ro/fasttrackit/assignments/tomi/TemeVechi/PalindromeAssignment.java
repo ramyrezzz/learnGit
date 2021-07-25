@@ -1,4 +1,4 @@
-package ro.fasttrackit.assignments.tomi;
+package ro.fasttrackit.assignments.tomi.TemeVechi;
 
 import java.util.Scanner;
 
