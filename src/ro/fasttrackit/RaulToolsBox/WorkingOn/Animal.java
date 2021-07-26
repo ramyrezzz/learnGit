@@ -1,12 +1,18 @@
-package ro.fasttrackit.TemeRaul;
+package ro.fasttrackit.RaulToolsBox.WorkingOn;
 
-public class Animal implements Feedable {
+public class Animal extends Survival implements Feedable {
 
     private boolean isFool = false;
+    public final String name;
+
+    public Animal(String name) {
+        this.name = name;
+    }
+
 
     @Override
-    public void eat() {
-        System.out.println("Animal Eats.");
+    public String name() {
+        return null;
     }
 
     @Override
@@ -21,14 +27,8 @@ public class Animal implements Feedable {
         this.isFool = isFull;
 
     }
-    @Override
-    public void drink() {
-        System.out.println("Animal drinks");
-    }
+
     @Override
     public void drink(String liquid) {
-    }
-    @Override
-    public void run() {
     }
 }

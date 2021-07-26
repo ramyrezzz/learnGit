@@ -1,7 +1,7 @@
-package ro.fasttrackit.TemeRaul;
+package ro.fasttrackit.RaulToolsBox.WorkingOn;
 
 
-public class FeedablePerson implements Feedable {
+public class FeedablePerson extends Survival implements Feedable {
 
     private final String name;
     protected boolean full = false;
@@ -19,11 +19,9 @@ public class FeedablePerson implements Feedable {
         return full;
     }
 
-
     @Override
-    public void eat() {
-        System.out.println("Person Eats");
-
+    public String name() {
+        return null;
     }
 
     @Override
@@ -39,20 +37,12 @@ public class FeedablePerson implements Feedable {
 
     }
 
-    @Override
-    public void drink() {
 
-
-    }
 
     @Override
     public void drink(String liquid) {
         System.out.printf("Person %s eats %s%n", name, liquid);
     }
 
-    @Override
-    public void run() {
-        System.out.printf("Person %s runs %n", name);
 
-    }
 }
