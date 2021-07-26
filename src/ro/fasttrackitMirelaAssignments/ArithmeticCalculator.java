@@ -1,4 +1,4 @@
-package ro.fasttrackit.mirela;
+package ro.fasttrackitMirelaAssignments;
 
 public class ArithmeticCalculator {
     public static void main(String[] args) {
