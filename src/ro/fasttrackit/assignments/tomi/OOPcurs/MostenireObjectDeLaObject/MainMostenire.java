@@ -2,7 +2,8 @@ package ro.fasttrackit.assignments.tomi.OOPcurs.MostenireObjectDeLaObject;
 
 public class MainMostenire {
     public static void main(String[] args) {
-        ro.fasttrackit.assignments.tomi.OOPcurs.MostenireObjectDeLaObject.Furniture myFurniture = new Furniture("Yellow", "wood", 70, 40, true);
+        ro.fasttrackit.assignments.tomi.OOPcurs.MostenireObjectDeLaObject.
+                Furniture myFurniture = new Furniture("Yellow", "wood", 70, 40, true);
         System.out.println("My furniture is : " + myFurniture.getColor());
         System.out.println("My furniture is : " + myFurniture.getMaterial());
         System.out.println("My furniture is : " + myFurniture.getHeight());

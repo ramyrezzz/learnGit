@@ -1,6 +1,6 @@
-package ro.fasttrackit.assignments.tomi.OOPcurs.PERSONobject;
+package ro.fasttrackit.assignments.tomi.OOPcurs.Interface;
 
-public class PersonWithInterface implements Feedable{
+public class PersonWithInterface implements Feedable {
 
     private final String name;
     private boolean full = false;
@@ -28,6 +28,7 @@ public class PersonWithInterface implements Feedable{
 
     @Override
     public void drink(String liquid) {
+        System.out.println("Person " + name + " drink " + liquid);
 
     }
 
