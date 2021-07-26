@@ -1,4 +1,4 @@
-package ro.fasttrackit.mirela;
+package ro.fasttrackitMirelaAssignments;
 
 import java.util.Scanner;
 
