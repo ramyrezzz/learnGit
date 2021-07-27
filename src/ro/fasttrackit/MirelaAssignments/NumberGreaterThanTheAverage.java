@@ -1,4 +1,4 @@
-package ro.fasttrackitMirelaAssignments;
+package ro.fasttrackit.MirelaAssignments;
 
 import java.util.ArrayList;
 import java.util.List;

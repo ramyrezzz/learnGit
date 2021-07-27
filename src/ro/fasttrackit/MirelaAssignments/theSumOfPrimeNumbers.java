@@ -1,4 +1,4 @@
-package ro.fasttrackitMirelaAssignments;
+package ro.fasttrackit.MirelaAssignments;
 
 public class theSumOfPrimeNumbers {
     public static void main(String[] args) {
