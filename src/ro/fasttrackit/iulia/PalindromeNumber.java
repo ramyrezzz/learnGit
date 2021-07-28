@@ -1,4 +1,4 @@
-package teme.iulia;
+package ro.fasttrackit.iulia;
 import java.util.Scanner;
 
 public class PalindromeNumber {

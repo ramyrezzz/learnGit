@@ -1,4 +1,4 @@
-package teme.iulia;
+package ro.fasttrackit.iulia;
 
 public class SumOfPrimeNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package teme.iulia;
+package ro.fasttrackit.iulia;
 
 public class Person {
     private final String name ;
