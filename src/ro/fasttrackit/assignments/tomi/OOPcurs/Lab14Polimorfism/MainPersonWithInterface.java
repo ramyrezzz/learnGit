@@ -17,10 +17,6 @@ public class MainPersonWithInterface {
         person.eat("bananas",true);
         person.run();*/
 
-
-
-
-
         /*Feedable animal = new Animal();  //POLIMORFISM
         animal.eat();
         animal.eat("bananas");

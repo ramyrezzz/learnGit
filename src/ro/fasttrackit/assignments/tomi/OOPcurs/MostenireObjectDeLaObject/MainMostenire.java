@@ -10,7 +10,8 @@ public class MainMostenire {
         System.out.println("My furniture is : " + myFurniture.getWidth());
         System.out.println("My furniture is : " + myFurniture.isForDesk());
 
-        ro.fasttrackit.assignments.tomi.OOPcurs.MostenireObjectDeLaObject.Chair myChair = new Chair("Red", "Steel", 50, 35, true, true, true);
+        ro.fasttrackit.assignments.tomi.OOPcurs.MostenireObjectDeLaObject.
+                Chair myChair = new Chair("Red", "Steel", 50, 35, true, true, true);
         {
             System.out.println("My chair is : " + myChair.getColor());
             System.out.println("My chair is : " + myChair.getMaterial());
