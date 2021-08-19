@@ -1,19 +1,20 @@
 package ro.fasttrackit.mela.teme;
 
 public class Person {
-    private final String name ;
+    private final String name;
     private boolean full = false;
 
-    public Person(String name){
+    public Person(String name) {
         this.name = name;
     }
+
     public String getName() {
         return name;
     }
 
-   public void isFull(){
-       System.out.printf("%s is full: %s%n", name, full);
-   }
+    public void isFull() {
+        System.out.printf("%s is full: %s%n", name, full);
+    }
 
     public void eat() {
         full = true;

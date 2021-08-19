@@ -21,20 +21,23 @@ public class ArithmeticCalculator {
             System.out.println("Result is: " + a * b);
         if (isDivision(operator))
             System.out.println("Result is: " + a / b);
-        }
-
-        private static boolean isDivision (String operator){
-            return operator.equals("/");
-        }
-        private static boolean isMultiplication (String operator){
-            return operator.equals("*");
-        }
-        private static boolean isSubtraction(String operator){
-            return operator.equals("-");
-        }
-        private static boolean isAddition (String operator){
-            return operator.equals("+");
-        }
     }
+
+    private static boolean isDivision(String operator) {
+        return operator.equals("/");
+    }
+
+    private static boolean isMultiplication(String operator) {
+        return operator.equals("*");
+    }
+
+    private static boolean isSubtraction(String operator) {
+        return operator.equals("-");
+    }
+
+    private static boolean isAddition(String operator) {
+        return operator.equals("+");
+    }
+}
 
 

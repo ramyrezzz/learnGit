@@ -22,7 +22,7 @@ public class MainMostenire {
             System.out.println("My chair is : " + myChair.isHeadRest());
             System.out.println("My chair is : " + myChair.isArmRest());
 
-            ro.fasttrackit.assignments.tomi.OOPcurs.MostenireObjectDeLaObject.Closet myCloset = new Closet("Green","steel",170,75,false,2,"sliding doors");
+            ro.fasttrackit.assignments.tomi.OOPcurs.MostenireObjectDeLaObject.Closet myCloset = new Closet("Green", "steel", 170, 75, false, 2, "sliding doors");
             {
                 System.out.println("My closet is : " + myCloset.getColor());
                 System.out.println("My closet is : " + myCloset.getMaterial());

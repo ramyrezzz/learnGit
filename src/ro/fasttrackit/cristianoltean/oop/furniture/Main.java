@@ -14,7 +14,7 @@ package ro.fasttrackit.cristianoltean.oop.furniture;
 
 public class Main {
     public static void main(String[] args) {
-        PersonWithInterface firstPerson = new PersonWithInterface ("Cristian");
+        PersonWithInterface firstPerson = new PersonWithInterface("Cristian");
         firstPerson.eat("salad", false);
 
 
@@ -39,7 +39,7 @@ public class Main {
                 false,
                 50,
                 50
-         );
+        );
 //        mySecondChair.setHeight(60);
 //        mySecondChair.setWidth(45);
 

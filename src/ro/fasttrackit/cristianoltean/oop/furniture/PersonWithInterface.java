@@ -8,6 +8,7 @@ public class PersonWithInterface implements Feedable {
     public PersonWithInterface(String name) {
         this.name = name;
     }
+
     public String getName() {
         return name;
     }

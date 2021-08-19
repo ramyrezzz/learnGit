@@ -14,6 +14,7 @@ public class Animal implements Feedable {
         System.out.printf("Animal eats: %s %n ", food);
 
     }
+
     @Override
     public void eat(String food, boolean isFull) {
         System.out.printf("Animal eats: %s %n ", food);
@@ -21,13 +22,16 @@ public class Animal implements Feedable {
         this.isFool = isFull;
 
     }
+
     @Override
     public void drink() {
         System.out.println("Animal drinks");
     }
+
     @Override
     public void drink(String liquid) {
     }
+
     @Override
     public void run() {
     }

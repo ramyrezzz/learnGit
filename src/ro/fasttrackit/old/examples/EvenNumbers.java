@@ -15,7 +15,7 @@ public class EvenNumbers {
 
     private static void seventhEvenNumbersProblem(String[] args) {
         int n = 100;
-        System.out.print("Even Numbers from 1 to "+n+" are: ");
+        System.out.print("Even Numbers from 1 to " + n + " are: ");
         for (int i = 1; i <= n; i++) {
             if (i % 2 == 0) {
                 System.out.print(i + " ");
@@ -50,12 +50,13 @@ public class EvenNumbers {
         int n = numberString.length;
         System.out.print("\n even number: ");
         for (int i = 0; i < n; i++) {
-            if (numberString[i] % 2==0)
+            if (numberString[i] % 2 == 0)
                 System.out.print(numberString[i] + ",");
-        }System.out.println();
+        }
+        System.out.println();
 
         System.out.print("\n odd numbers: ");
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             if (numberString[i] % 2 == 1)
                 System.out.print(numberString[i] + ",");
         }
@@ -65,7 +66,7 @@ public class EvenNumbers {
     private static void forthEvenNumbersProblem(String[] args) {
         //even numbers
         int n = 5;
-        System.out.print("Even Numbers from 1 to "+n+" are: ");
+        System.out.print("Even Numbers from 1 to " + n + " are: ");
         for (int i = 0; i <= n; i++) {
             //if number%2 == 0 it means its an even number
             if (i % 2 == 0) {
@@ -75,14 +76,14 @@ public class EvenNumbers {
     }
 
     private static void thirdEvenNumbersProblem(String[] args) {
-        Scanner keyboard = new Scanner (System.in);
+        Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Enter a number: ");
         int n = keyboard.nextInt();
 
         System.out.println("Your numbers are: ");
-        for(int i=0; i<=n; i++) {
-            if(i%2 == 0) {
+        for (int i = 0; i <= n; i++) {
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
@@ -131,7 +132,9 @@ public class EvenNumbers {
                 System.out.print(k + " ");
             }
             System.out.println();
-        } System.out.println();;
+        }
+        System.out.println();
+        ;
 
         for (int i = 0; i < nrPare.length; i++) {
             System.out.print("Numerele PARE mai mici decat nr " + nrPare[i] + " sunt : ");

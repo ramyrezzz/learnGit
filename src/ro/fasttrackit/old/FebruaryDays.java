@@ -1,11 +1,12 @@
 package ro.fasttrackit.old;
+
 import java.util.Scanner;
 
 public class FebruaryDays {
     public static void main(String[] args) {
 
         int days;
-        Scanner keyboard = new Scanner (System.in);
+        Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Enter a year: ");
         int year = keyboard.nextInt();

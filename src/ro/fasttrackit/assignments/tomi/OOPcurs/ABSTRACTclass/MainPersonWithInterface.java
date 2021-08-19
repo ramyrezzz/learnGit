@@ -43,9 +43,6 @@ public class MainPersonWithInterface {
         personOne.run();*/
 
 
-
-
-
         ro.fasttrackit.assignments.tomi.OOPcurs.Lab14Polimorfism.Feedable person = new ro.fasttrackit.assignments.tomi.OOPcurs.Lab14Polimorfism.FeedablePerson("RAMI");
         ro.fasttrackit.assignments.tomi.OOPcurs.Lab14Polimorfism.Feedable personOne = new FeedablePerson("ONE");
         ro.fasttrackit.assignments.tomi.OOPcurs.Lab14Polimorfism.Feedable animal = new Animal();
@@ -55,7 +52,7 @@ public class MainPersonWithInterface {
         myList.add(personOne);
         myList.add(animal);
 
-        for (Feedable feedable : myList){
+        for (Feedable feedable : myList) {
             feedable.eat();
         }
 

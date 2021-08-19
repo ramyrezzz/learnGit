@@ -12,21 +12,23 @@ public class Person {
     public String name() {
         return name;
     }
-    public void isFull(){
-        System.out.printf("%s is full : %s %n", name , full);
+
+    public void isFull() {
+        System.out.printf("%s is full : %s %n", name, full);
     }
-    public void eat(){
-        full=true;
+
+    public void eat() {
+        full = true;
         System.out.printf("Person %S eats.%n", name);
         isFull();
     }
 
 
-
-    public void run(){
+    public void run() {
         System.out.printf("Person %S exercises.%n", name);
     }
-    public void drink(){
+
+    public void drink() {
         eat();
     }
 }

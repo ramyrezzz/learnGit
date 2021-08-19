@@ -8,10 +8,12 @@ public class PersonWithInterface implements Feedable {
     public PersonWithInterface(String name) {
         this.name = name;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public boolean isFull(){
+
+    public boolean isFull() {
         System.out.println("Person " + name + " is full " + full);
         return full;
     }
@@ -41,7 +43,6 @@ public class PersonWithInterface implements Feedable {
     public void eat(String food, boolean isFull) {
         System.out.println("Person " + name + " eats " + food);
         this.full = isFull;
-
 
 
     }

@@ -11,18 +11,19 @@ public class FeedablePerson extends Survival implements Feedable {
     public FeedablePerson(String name) {
         this.name = name;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public boolean isFull(){
+
+    public boolean isFull() {
         System.out.println("Person " + name + " is full " + this.full);
         return full;
     }
 
 
-
     @Override
-    public void eat(String food){
+    public void eat(String food) {
         System.out.println("Person eats " + food);
     }
 

@@ -34,15 +34,14 @@ public class DivisionByZero {
         int input = 0;
         System.out.println("Enter an Integer value ");
         Scanner sc = new Scanner(System.in);
-        if(sc.hasNextInt()) {
+        if (sc.hasNextInt()) {
             input = sc.nextInt();
-            if(input>0)
-                System.out.println("You entered a positive integer "+input);
+            if (input > 0)
+                System.out.println("You entered a positive integer " + input);
             else {
-                System.out.println("You entered a negative integer "+input);
+                System.out.println("You entered a negative integer " + input);
             }
-        }
-        else {
+        } else {
             System.out.println("Please Enter Valid Integer");
         }
     }
@@ -93,18 +92,18 @@ public class DivisionByZero {
         for (int i = 0; i <= args.length - 1; i++) {
             try {
                 divisionExact = b / a;
-                System.out.printf("\nDivision is: %d", divisionExact);}
-            catch (ArithmeticException except) {
+                System.out.printf("\nDivision is: %d", divisionExact);
+            } catch (ArithmeticException except) {
                 System.out.println("\nAvoid dividing by integer 0" + except);
             }
 
             //a number raise to the power of some another number
-            System.out.println(Math.pow(c,b));
+            System.out.println(Math.pow(c, b));
         }
 
         //even numbers
         int n = 5;
-        System.out.print("Even Numbers from 1 to "+n+" are: ");
+        System.out.print("Even Numbers from 1 to " + n + " are: ");
         for (int i = 0; i <= n; i++) {
             //if number%2 == 0 it means its an even number
             if (i % 2 == 0) {
@@ -113,29 +112,25 @@ public class DivisionByZero {
         }
 
         //factorial number
-        int fact=1;
-        int number=5;
-        for(int i=1;i<=number;i++){
-            fact=fact*i;
+        int fact = 1;
+        int number = 5;
+        for (int i = 1; i <= number; i++) {
+            fact = fact * i;
         }
-        System.out.println("\nFactorial of "+number+" is: "+fact);
+        System.out.println("\nFactorial of " + number + " is: " + fact);
 
         //prime numbers
         int i, count;
         System.out.println("\nPrime Numbers from 1 to" + number + "13 are : ");
-        for(number = 1; number <= 13; number++)
-        {
+        for (number = 1; number <= 13; number++) {
             count = 0;
-            for (i = 2; i <= number/2; i++)
-            {
-                if(number % i == 0)
-                {
+            for (i = 2; i <= number / 2; i++) {
+                if (number % i == 0) {
                     count++;
                     break;
                 }
             }
-            if(count == 0 && number != 1 )
-            {
+            if (count == 0 && number != 1) {
                 System.out.print(number + " ");
             }
         }
@@ -150,10 +145,10 @@ public class DivisionByZero {
         System.out.println("Enter a divisor: ");
         int divisor = keyboard.nextInt();
 
-        if(n == 0 || divisor == 0) {
+        if (n == 0 || divisor == 0) {
             System.out.println("You enter an invalid number for division");
         } else {
-            result = n/divisor;
+            result = n / divisor;
             System.out.println("Division is: " + result);
         }
     }
@@ -163,7 +158,7 @@ public class DivisionByZero {
         System.out.println("second number " + args[1]);
         System.out.println("third number " + args[2]);
 
-        if(args.length < 3) {
+        if (args.length < 3) {
             System.out.println("Not enough numbers to calculate");
             return;
         }
@@ -172,7 +167,7 @@ public class DivisionByZero {
         int b = Integer.parseInt(args[1]);//sintaxa asta primeste date de la user (de la tastatura)
         int c = Integer.parseInt(args[2]);
 
-        if( a == 0 || b == 0 || c == 0 ){
+        if (a == 0 || b == 0 || c == 0) {
             System.out.println("Change variables input value !!");
             return;
         }
@@ -187,34 +182,34 @@ public class DivisionByZero {
     }
 
     private static void firstDivisionByZeroProblem(String[] args) {
-        if (args.length <2) {
-            System.out.println("Numar insuficient de argumente : "+ args.length);
+        if (args.length < 2) {
+            System.out.println("Numar insuficient de argumente : " + args.length);
             return;
         }
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
-        if (a==0 && b==0) {
-            System.out.println("Operatia de impartire nu se poate efectua!\n Deimpartitul a = "+ args[0] + "\n Impartitorul b = "+ args[1]);
+        if (a == 0 && b == 0) {
+            System.out.println("Operatia de impartire nu se poate efectua!\n Deimpartitul a = " + args[0] + "\n Impartitorul b = " + args[1]);
             return;
         }
-        if (a==0 && b!=0 ) {
-            System.out.println("Deimpartitul a = "+ String.valueOf(a));
-            System.out.println("Impartitorul b = "+ String.valueOf(b));
-            System.out.println("Rezultatul operatiei a/b = "+ a/b);
+        if (a == 0 && b != 0) {
+            System.out.println("Deimpartitul a = " + String.valueOf(a));
+            System.out.println("Impartitorul b = " + String.valueOf(b));
+            System.out.println("Rezultatul operatiei a/b = " + a / b);
         }
-        if (a!=0 && b==0 ) {
+        if (a != 0 && b == 0) {
             //System.out.println("Deimpartitul a = "+ args[0]);
-            System.out.println("Deimpartitul a = "+ String.valueOf(a));
-            System.out.println("Impartitorul b = "+ String.valueOf(b));
+            System.out.println("Deimpartitul a = " + String.valueOf(a));
+            System.out.println("Impartitorul b = " + String.valueOf(b));
             System.out.println("Operatiei a/b nu se poate efectua!");
             System.err.println();
             return;
         }
-        if (a!=0 && b!=0 ) {
-            System.out.println("Deimpartitul a = "+ args[0]);
-            System.out.println("Impartitorul b = "+ args[1]);
-            System.out.println("Rezultatul impartirii a/b = "+ Double.parseDouble(args[0])/Double.parseDouble(args[1]));
-            System.out.println("Restul impartirii a/b = "+ a%b);
+        if (a != 0 && b != 0) {
+            System.out.println("Deimpartitul a = " + args[0]);
+            System.out.println("Impartitorul b = " + args[1]);
+            System.out.println("Rezultatul impartirii a/b = " + Double.parseDouble(args[0]) / Double.parseDouble(args[1]));
+            System.out.println("Restul impartirii a/b = " + a % b);
 
         }
     }

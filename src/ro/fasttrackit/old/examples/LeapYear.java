@@ -35,8 +35,7 @@ public class LeapYear {
     private static int getYear(String[] args) {
         try {
             return Integer.parseInt(args[0]);
-        }
-        catch (NumberFormatException exception) {
+        } catch (NumberFormatException exception) {
             System.out.println("Please use a number.");
             return 0;
         }

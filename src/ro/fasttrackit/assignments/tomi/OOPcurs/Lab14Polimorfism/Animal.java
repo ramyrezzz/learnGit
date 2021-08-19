@@ -10,13 +10,13 @@ public class Animal implements Feedable {
 
     @Override
     public void eat(String food) {
-        System.out.println("Animal eats : " + food );
+        System.out.println("Animal eats : " + food);
 
     }
 
     @Override
     public void eat(String food, boolean isFull) {
-        System.out.println("Animal eats : " + food );
+        System.out.println("Animal eats : " + food);
         System.out.println("Animal is full : " + isFull);
         this.isFull = isFull;
 

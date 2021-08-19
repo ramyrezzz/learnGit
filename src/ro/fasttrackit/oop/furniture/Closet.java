@@ -1,6 +1,6 @@
 package ro.fasttrackit.oop.furniture;
 
-public class Closet extends Furniture{
+public class Closet extends Furniture {
     private final int doorCount;
     private final String doorType;
 

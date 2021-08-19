@@ -59,7 +59,7 @@ public class PersonTwo {
     public void isStudentEmployee() {
         if (markEmployee != 0 && college != null)
             System.out.println("I am a student college " + college +
-                    " and I am already employed with the brand " + markEmployee +".");
+                    " and I am already employed with the brand " + markEmployee + ".");
     }
 
     public void isDriver() {
@@ -69,11 +69,12 @@ public class PersonTwo {
 
     public void speakLanguage() {
         if (language != null)
-            System.out.println("I speak "+ language+".");
+            System.out.println("I speak " + language + ".");
     }
+
     public void havePets() {
         if (pets != null)
-            System.out.println("I have pets: " + pets+".");
+            System.out.println("I have pets: " + pets + ".");
     }
 }
 

@@ -5,7 +5,7 @@ public class Chair extends Furniture {
     private final boolean headRest;
     private final boolean forDesk;
 
-       public Chair(String color, String material, double height, double width, boolean armRest, boolean headRest, boolean forDesk) {
+    public Chair(String color, String material, double height, double width, boolean armRest, boolean headRest, boolean forDesk) {
         super(color, material);
         this.armRest = armRest;
         this.forDesk = headRest;
@@ -30,6 +30,6 @@ public class Chair extends Furniture {
     }
 
     public boolean isForDesk() {
-           return forDesk;
+        return forDesk;
     }
 }

@@ -1,4 +1,5 @@
 package ro.fasttrackit.mela.teme;
+
 class Student {
     int identifier;
     double averageGrades;
@@ -11,8 +12,7 @@ public class OerationClassAndObject {
                 "English", "dogs");
         PersonTwo person3 = new PersonTwo("Lili", 34, 0, null, false,
                 "French", "cat");
-        if (person2.getName() == null || person2.getAge() == 0)
-        {
+        if (person2.getName() == null || person2.getAge() == 0) {
             System.out.println("Please enter the valid arguments for defined objects!");
             return;
         }
@@ -26,8 +26,7 @@ public class OerationClassAndObject {
         person2.havePets();
         System.out.println();
 
-        if (person3.getName() == null || person2.getAge() == 0)
-        {
+        if (person3.getName() == null || person2.getAge() == 0) {
             System.out.println("Please enter the valid arguments!");
             return;
         }
@@ -50,7 +49,7 @@ public class OerationClassAndObject {
         s2.identifier = 102;
         s2.averageGrades = 8.82;
         s2.studentName = "Ionescu Mihai";
-        System.out.println(s1.identifier + " "+ s1.averageGrades+" "+s1.studentName);
-        System.out.println(s2.identifier + " "+ s2.averageGrades+" "+s2.studentName);
+        System.out.println(s1.identifier + " " + s1.averageGrades + " " + s1.studentName);
+        System.out.println(s2.identifier + " " + s2.averageGrades + " " + s2.studentName);
     }
 }

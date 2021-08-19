@@ -9,10 +9,12 @@ public class FeedablePerson implements Feedable {
     public FeedablePerson(String name) {
         this.name = name;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public boolean isFull(){
+
+    public boolean isFull() {
         System.out.println("Person " + name + " is full " + this.full);
         return full;
     }
@@ -23,7 +25,7 @@ public class FeedablePerson implements Feedable {
     }
 
     @Override
-    public void eat(String food){
+    public void eat(String food) {
         System.out.println("Person eats " + food);
     }
 

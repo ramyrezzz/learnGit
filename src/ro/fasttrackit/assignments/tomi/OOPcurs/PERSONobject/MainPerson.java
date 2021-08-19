@@ -3,7 +3,7 @@ package ro.fasttrackit.assignments.tomi.OOPcurs.PERSONobject;
 public class MainPerson {
     public static void main(String[] args) {
         Person person = new Person("Viorel");
-        person.eat("Salad",false);
+        person.eat("Salad", false);
 
         person.isFull();
         person.eat();

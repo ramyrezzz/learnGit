@@ -2,7 +2,7 @@ package ro.fasttrackit.assignments.tomi.OOPtemaPERSOANA;
 
 public class TemaPerson {
     public String myName = "Simo Attila Tamas";
-    public char[] myInitials = {'S','A','T'};
+    public char[] myInitials = {'S', 'A', 'T'};
     public String myGender = "male";
     public boolean married = false;
     public int myAge = 34;
@@ -12,25 +12,32 @@ public class TemaPerson {
     public char[] getMyInitials() {
         return myInitials;
     }
-    public String getMyName(){
+
+    public String getMyName() {
         return myName;
     }
-    public boolean married(){
+
+    public boolean married() {
         return false;
     }
+
     public String myGender() {
         return myGender;
     }
-    public int getMyAge(){
+
+    public int getMyAge() {
         return myAge;
     }
-    public float myHeight(){
+
+    public float myHeight() {
         return myHeight;
     }
-    public int getMyWeight(){
+
+    public int getMyWeight() {
         return myWeight;
     }
-    public void myimc(){
+
+    public void myimc() {
         System.out.println("Indice masa corporala : " + myWeight / (myHeight * myHeight));
     }
 }

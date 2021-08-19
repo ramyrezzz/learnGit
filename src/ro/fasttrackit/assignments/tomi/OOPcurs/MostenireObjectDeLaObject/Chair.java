@@ -10,9 +10,11 @@ public class Chair extends Furniture {
         this.headRest = headRest;
 
     }
+
     public boolean isArmRest() {
         return armRest;
     }
+
     public boolean isHeadRest() {
         return headRest;
     }

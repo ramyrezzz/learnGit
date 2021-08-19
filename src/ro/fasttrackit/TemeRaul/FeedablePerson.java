@@ -15,7 +15,7 @@ public class FeedablePerson implements Feedable {
     }
 
     public boolean isFull() {
-        System.out.printf("%s is full: %s%n", name );
+        System.out.printf("%s is full: %s%n", name);
         return full;
     }
 

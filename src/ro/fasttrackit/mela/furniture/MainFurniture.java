@@ -34,8 +34,8 @@ public class MainFurniture {
                 "sliding door"
         );
         System.out.println("My Furniture is : " + myFurniture.getColor());
-        System.out.println("My first chair hight is : "+ myChair.getHeight());
-        System.out.println("My second chair hight is : "+ mySecondChair.getHeight());
+        System.out.println("My first chair hight is : " + myChair.getHeight());
+        System.out.println("My second chair hight is : " + mySecondChair.getHeight());
         System.out.println("My Chair is : " + myChair.getColor());
         System.out.println("My Chair has head rest : " + myChair.isHeadRest());
         System.out.println("My Closet has : " + myCloset.getDoorCount() + " doors");

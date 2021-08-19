@@ -1,6 +1,6 @@
 package ro.fasttrackit.oop.person;
 
-public abstract class Survival implements Feedable{
+public abstract class Survival implements Feedable {
     public void eat() {
         System.out.println("I can Eat !");
     }

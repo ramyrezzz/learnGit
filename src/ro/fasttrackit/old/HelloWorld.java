@@ -22,14 +22,14 @@ public class HelloWorld {
 
     public static void main(String[] args) {
         // Prints "Hello, World" to the terminal window.
-		for(int i=0;i<10;i++){
-        System.out.println("Hello, World!! You are great! Petruta is cool ! Everyone is cool !!!");
-		}
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Hello, World!! You are great! Petruta is cool ! Everyone is cool !!!");
+        }
     }
-	
-	public void printOut(String stringToPrint) {
-		System.out.println("Hello, World!");
-	}
+
+    public void printOut(String stringToPrint) {
+        System.out.println("Hello, World!");
+    }
 }
 
 //Mi foame

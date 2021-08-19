@@ -17,7 +17,6 @@ public class Lab10Assignment {
         }
 
 
-
 //        if(args.length == 3){
 //            double a = Double.parseDouble(args[0]);
 //            double b = Double.parseDouble(args[2]);
@@ -42,8 +41,6 @@ public class Lab10Assignment {
 //        else {
 //            System.err.println("3 args are needed !");
 //        }
-
-
 
 
 //

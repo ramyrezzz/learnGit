@@ -1,6 +1,6 @@
 package ro.fasttrackit.mela.oop;
 
-public class PersonWithInterface implements Feedable{
+public class PersonWithInterface implements Feedable {
     private final String name;
     private boolean full = false;
 
@@ -19,17 +19,17 @@ public class PersonWithInterface implements Feedable{
 
     @Override
     public void eat() {
-        System.out.printf("Person " +getName() + " eats %n");
+        System.out.printf("Person " + getName() + " eats %n");
     }
 
     @Override
     public void eat(String food) {
-        System.out.printf("Person " +getName() + " eats %s%n", food );
+        System.out.printf("Person " + getName() + " eats %s%n", food);
     }
 
     @Override
     public void eat(String food, boolean isfull) {
-        System.out.printf("Person %s, eats %s%n", name, food );
+        System.out.printf("Person %s, eats %s%n", name, food);
         this.full = isfull;
         isFull();
 
@@ -37,21 +37,21 @@ public class PersonWithInterface implements Feedable{
 
     @Override
     public void drink() {
-        System.out.printf("Person " +getName() + " drinks %n");
+        System.out.printf("Person " + getName() + " drinks %n");
     }
 
     @Override
     public void drink(String liquid) {
-        System.out.printf("Person " +getName() + " drinks %s%n", liquid);
+        System.out.printf("Person " + getName() + " drinks %s%n", liquid);
     }
 
     @Override
     public void run() {
-        System.out.println("Person "+getName()+ " runs");
+        System.out.println("Person " + getName() + " runs");
     }
 
     @Override
     public void run(String location) {
-        System.out.printf("Person " +getName() + " runs %s%n", location );
+        System.out.printf("Person " + getName() + " runs %s%n", location);
     }
 }

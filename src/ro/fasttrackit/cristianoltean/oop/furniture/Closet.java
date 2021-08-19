@@ -1,8 +1,9 @@
 package ro.fasttrackit.cristianoltean.oop.furniture;
 
-public class Closet extends Furniture{
+public class Closet extends Furniture {
     private final int doorCount;
     private final String doorType;
+
     public Closet(String color, String material, double height, int doorCount, String doorType) {
         super(color, material);
         this.doorCount = doorCount;

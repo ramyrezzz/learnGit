@@ -14,13 +14,12 @@ public class Factorial {
 
     private static void sixthFactorialProblem(String[] args) {
         int firstArgs = 4;
-        int fact=1;
+        int fact = 1;
         int f;
-        for(f=1;f<=firstArgs;f++)
-        {
-            fact=fact*f;
+        for (f = 1; f <= firstArgs; f++) {
+            fact = fact * f;
         }
-        System.out.println("\n Factorial number is:"  +fact);
+        System.out.println("\n Factorial number is:" + fact);
     }
 
     private static void fifthFactorialProblem(String[] args) {
@@ -28,17 +27,15 @@ public class Factorial {
             System.out.println("Numar insuficient de argumente : " + args.length);
             return;
         }
-        for (int i = 0; i < args.length; i++)
-        {
-            System.out.print("Factorial de " + args[i] + " ("+ args[i]+"!) = " );
+        for (int i = 0; i < args.length; i++) {
+            System.out.print("Factorial de " + args[i] + " (" + args[i] + "!) = ");
             //  int a = Integer.parseInt(args[i]);
             int numarFactorial = 1;
-            for (int k=1; k <= Integer.parseInt(args[i]); k++)
-            {
+            for (int k = 1; k <= Integer.parseInt(args[i]); k++) {
                 numarFactorial *= k;
-                System.out.print(k+"*" );
+                System.out.print(k + "*");
             }
-            System.out.print("="+ numarFactorial );
+            System.out.print("=" + numarFactorial);
             System.out.println();
         }
     }
@@ -61,7 +58,7 @@ public class Factorial {
 
         int firstNumFaktor = 1;
         int a;
-        for(a = 1; a <= firstNumArray.length; a++){
+        for (a = 1; a <= firstNumArray.length; a++) {
             System.out.println(a);
             firstNumFaktor = a * firstNumFaktor;
             System.out.println("faktor = " + firstNumFaktor);
@@ -69,7 +66,7 @@ public class Factorial {
         System.out.println();
         int secondNumFaktor = 1;
         int b;
-        for(b = 1; b <= secondNumArray.length; b++){
+        for (b = 1; b <= secondNumArray.length; b++) {
             System.out.println(b);
             secondNumFaktor = b * secondNumFaktor;
             System.out.println("factor = " + secondNumFaktor);
@@ -77,7 +74,7 @@ public class Factorial {
         System.out.println();
         int thirdNumFaktor = 1;
         int c;
-        for(c = 1; c <= thirdNumArray.length; c++){
+        for (c = 1; c <= thirdNumArray.length; c++) {
             System.out.println(c);
             thirdNumFaktor = c * thirdNumFaktor;
             System.out.println("factor = " + thirdNumFaktor);
@@ -85,10 +82,10 @@ public class Factorial {
         System.out.println();
         int fourthNumFaktor = 1;
         int d;
-        for(d = 1; d <= fourthNumArray.length; d++){
+        for (d = 1; d <= fourthNumArray.length; d++) {
             System.out.println(d);
             fourthNumFaktor = d * fourthNumFaktor;
-            System.out.println("factor = " + fourthNumFaktor );
+            System.out.println("factor = " + fourthNumFaktor);
         }
     }
 
@@ -99,11 +96,11 @@ public class Factorial {
         System.out.println("Enter a number: ");
         int n = keyboard.nextInt();
 
-        if(n < 0) {
+        if (n < 0) {
             System.out.println("Factorial number of a negative number doesn\'t exist");
         } else {
-            for(int i= 1; i<=n; i++) {
-                fact *=i;
+            for (int i = 1; i <= n; i++) {
+                fact *= i;
             }
             System.out.println("Factorial of:" + n + " is:" + fact);
         }
@@ -133,10 +130,10 @@ public class Factorial {
         System.out.println(f);
     }
 
-    public static Double fact(int a){
+    public static Double fact(int a) {
         double fact = 1;
-        for (int i=1; i<=a; i++){
-            fact = fact *i;
+        for (int i = 1; i <= a; i++) {
+            fact = fact * i;
         }
         return fact;
     }

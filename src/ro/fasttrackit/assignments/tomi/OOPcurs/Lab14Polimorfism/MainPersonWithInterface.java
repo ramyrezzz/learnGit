@@ -35,9 +35,6 @@ public class MainPersonWithInterface {
         personOne.run();*/
 
 
-
-
-
         Feedable person = new FeedablePerson("RAMI");
         Feedable personOne = new FeedablePerson("ONE");
         Feedable animal = new Animal();
@@ -47,7 +44,7 @@ public class MainPersonWithInterface {
         myList.add(personOne);
         myList.add(animal);
 
-        for (Feedable feedable : myList){
+        for (Feedable feedable : myList) {
             feedable.eat();
         }
 

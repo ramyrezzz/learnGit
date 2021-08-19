@@ -12,14 +12,14 @@ public class TemaLab9 {
             reversed = reversed * 10 + remainder;
             a = a / 10;
         }
-        if(original == reversed)
+        if (original == reversed)
             return true;
 
         return false;
     }
 
     public static void main(String[] args) {
-	    // Read the number n from keyboard
+        // Read the number n from keyboard
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = in.nextInt();
